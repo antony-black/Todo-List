@@ -1,0 +1,24 @@
+$primaryColor: brown;
+$secondaryColor: purple;
+
+html {
+  font-family: generalFont;
+}
+
+h1 {
+  color: $primaryColor;
+  display: block;
+  height: 400px;
+  background: url('../assets/tesla-2.jpg');
+}
+
+.container{
+&__subtitle {
+  color: $secondaryColor;
+  display: block;
+  height: 400px;
+  background: url('../assets/tesla-1.jpg');
+  display: flex;
+  justify-content: center;
+  }
+}
