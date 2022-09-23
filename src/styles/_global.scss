@@ -1,24 +1,53 @@
+
 $primaryColor: brown;
 $secondaryColor: purple;
 
-html {
-  font-family: generalFont;
-}
 
-h1 {
-  color: $primaryColor;
-  display: block;
-  height: 400px;
-  background: url('../assets/tesla-2.jpg');
-}
+.container {
+  max-width: 600px;
+  min-height: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px 0 0;
+  background: url('../assets/clouds_img.jpg');
 
-.container{
-&__subtitle {
-  color: $secondaryColor;
-  display: block;
-  height: 400px;
-  background: url('../assets/tesla-1.jpg');
-  display: flex;
-  justify-content: center;
+  &__title {
   }
+
+  &__row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  &__input {
+  }
+
+  &__btn {
+  }
+}
+.form-control {
+}
+.btn {
+  display: block;
+  width: 80px;
+  height: 22px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #00aaff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+.btn-primary {
+}
+.form-check {
+  
+}
+.form-check-label {
+  color: #fff;
+  font-size: 18px;
+}
+.form-check-input {
 }
